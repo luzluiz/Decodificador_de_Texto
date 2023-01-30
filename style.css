@@ -1,0 +1,127 @@
+*{
+	background: #E5E5E5;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+}
+
+.logoalura{
+
+	margin-left: 5px;
+	padding-top: 5px;
+	width: 2%;
+}
+
+main{
+
+	display: flex;
+	margin-bottom: 50px;
+	margin-left: 80px;
+	
+}
+
+.digitetexto{
+
+	border: none;
+	color: #0A3871;
+	margin-top: 90px;
+	text-transform: lowercase;
+}
+
+::placeholder { color: #0A3871;}
+	.digitetexto:focus{
+		outline: none;
+	}
+
+.mensagem{
+
+	background: white;
+	background-image: url(./imagens/boneco_lupa.png);
+	background-repeat: no-repeat;
+	border: none;
+	border-radius: 24px;
+	color: #0A3871;
+	margin-left: 100px;
+	margin-top: -90px;
+	padding-left: 20px;
+    
+	
+}
+::placeholder { color: #0A3871;}
+	.mensagem:focus{
+		
+		outline: none;
+	}
+
+.botoes{
+
+	display: flex;
+	margin-top: 18px;
+	
+}
+
+.Criptografar{
+
+	background-color: #0A3871;
+	font-size: 30px;
+	border: 2px solid #0A3871;
+	border-radius: 24px;
+	color: #FFFFFF;
+	cursor: pointer;
+	height: 67px;
+    width: 328px;
+		
+}
+
+
+.Descriptografar{
+	
+	background: #D8DFE8;
+	border: 2px solid #0A3871;
+	border-radius: 24px;
+	color: #0A3871;
+	font-size: 30px;
+	cursor: pointer;
+	height: 67px;
+    margin-left: 30px;
+    width: 328px;
+
+}
+
+
+.copiar{
+
+	border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: fixed;
+    width: 336px;
+}
+
+.informacao{
+
+	margin-left: 30px;
+	margin-bottom: 5px;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	
+}
+
+footer{
+	
+	font-size: 15px;
+	text-align: center;
+	padding: 10px 0;
+	background-color: #808080;
+}
+
+@media screen and (max-width: 480px){
+.logoalura, .digitetexto, .mensagem, .main{
+	width: auto;
+ }
+}
